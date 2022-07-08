@@ -11,6 +11,7 @@ import java.util.List;
 
 @Service
 public class BookServiceImplementation implements BookService {
+    @Autowired
     private BookRepository bookRepository;
     @Override
     public Book saveBook(Book myBook) {
