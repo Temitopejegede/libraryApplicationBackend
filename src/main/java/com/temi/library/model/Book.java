@@ -26,7 +26,7 @@ public class Book {
     private String author;
 
     @Column(name = "NumberOfPages", nullable = false)
-    private int numberOfPages;
+    private String numberOfPages;
 
     @Column(name = "Color", nullable = false)
     private String color;
